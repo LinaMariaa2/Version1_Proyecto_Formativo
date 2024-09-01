@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar Código</title>
+    <link rel="shortcut icon" href="img/Hortitech.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/codigo_restablecer.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="code-form">
+                <h1>Ingresar Código de Restablecimiento</h1>
+                <p class="description">Ingresa el código que recibiste por correo electrónico para verificar tu solicitud de restablecimiento.</p>
+                <form action="/verify-code" method="POST">
+                    <input type="hidden" id="email" name="email" value="EMAIL_DEL_USUARIO">
+                    
+                    <label for="code">Código de Restablecimiento</label>
+                    <input type="text" id="code" name="code" placeholder="Ingrese el código" required>
+                    <a href="inicio_sesion.html">
+                        <button type="button">verificar</button>
+                    </a>
+                    
+                    <a href="inicio_sesion.html" class="back-to-login">Volver al Inicio de Sesión</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

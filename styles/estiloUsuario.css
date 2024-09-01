@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 80px; /* inicio */
+    border-right: 1px solid #7c7b7b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; 
+}
+
+.icon-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-icon img {
+    width: 90%; 
+    height: 90%;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; 
+    text-align: center; 
+}
+
+.icon {
+    font-size: 28px; 
+    color: #888;
+}
+
+a{
+    text-decoration: none;
+}
+.icon-label {
+    margin-top: 5px; 
+    font-size: 12px; 
+    color: #888;
+    line-height: 1.2; /* fin */
+    text-decoration: none;
+}
+
+.section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    margin-bottom: 60px;
+    border-width:10px solid #f3e8e8 ;
+    color: #2c3e50;
+}
+
+.space-titu{
+    margin: auto;
+    width: 90vw;
+    border-bottom:  1px solid #f3e8e8;
+    padding: 1em;
+}
+
+.luz-container {
+    width: 100%;
+    
+    background-color: white;
+    
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+    display: flex;
+}
+
+.luz-titulo {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    height: 50px;
+}
+
+.luz-formulario .luz-form-group {
+    margin-bottom: 15px;
+}
+
+.luz-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.luz-input[type="date"],
+.luz-input[type="time"],
+.luz-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.luz-textarea {
+    height: 100px;
+}
+
+.tam-decrip{
+    width: 40vw;
+    height: 40vh;
+}
+
+.luz-submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #34db34;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.luz-submit-btn:hover {
+    background-color: #28a745;
+}

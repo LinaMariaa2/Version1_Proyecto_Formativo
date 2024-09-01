@@ -1,0 +1,85 @@
+/* Estilos generales del body para la página de registro */
+body.register-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor de la cuadrícula para la página de registro */
+.grid-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Estilo del contenedor del formulario para la página de registro */
+.form-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+
+/* Estilo del encabezado para la página de registro */
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Estilo del formulario para la página de registro */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Estilo de las etiquetas para la página de registro */
+label {
+    margin: 0;
+}
+
+/* Estilo de los campos de entrada para la página de registro */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Estilo del botón para la página de registro */
+button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo del párrafo para la página de registro */
+p {
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+/* Estilo de los enlaces para la página de registro */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

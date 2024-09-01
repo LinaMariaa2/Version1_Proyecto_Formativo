@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear tabla</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="shortcut icon" href="img/Hortitech.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+    <header class="container">
+        <div class="sidebar">
+            <figure class="main-icon">
+                <img src="images/Hortitech.jpg" alt="Logo Empresa">
+            </figure>
+            <section class="icon-group">
+                <article class="icon-item">
+                    <i class="fas fa-laptop-code icon"></i>
+                    <a href="programacionAdmi.html"><span class="icon-label">Programación</span></a>
+                </article>
+                
+                <article class="icon-item">
+                    <i class="fas fa-seedling icon"></i>
+                    <a href="invernaderoAdministrador.html" target="_blank"><span class="icon-label">Invernaderos</span></a>
+                </article>
+                
+                <article class="icon-item">
+                    <i class="fas fa-chart-line icon"></i>
+                    <a href="estadisticasAdmi.html" target="_blank"><span class="icon-label">Estadisitcas</span></a>
+                </article>
+                
+                <article class="icon-item">
+                    <i class="fas fa-book icon"></i>
+                    <a href="blocAdmi.html" target="_blank"><span class="icon-label">Bloc</span></a>
+                </article>
+                
+                <article class="icon-item">
+                    <i class="fas fa-cog icon"></i>
+                    <a href="s-dateA.html" target="_blank"><span class="icon-label">Configuraciones</span></a>
+                </article>
+            </section>
+        </div>
+        
+        
+
+        <main class=" luz-container">
+            <span class="back-arrow">←</span>
+            <h2 id="Agreagar" class="luz-titulo">Crear nueva tabla</h2>
+            <form class="luz-formulario">
+
+                <div class="luz-form-group">
+                    <label for="tipo" class="luz-label">Selecciona el invernadero</label>
+                    <select name="tipo" id="tipo">
+                        <option value="Inver1">Invernadero 1</option>
+                        <option value="Inver2">Invernadero 2</option>
+                        <option value="Inver3">Invernadero 3</option>
+                    </select>
+                </div>
+
+                <div class="luz-form-group">
+                    <label for="tipo" class="luz-label">Selecciona la zona</label>
+                    <select name="tipo" id="tipo">
+                        <option value="Zon1">Zona 1</option>
+                        <option value="Zon2">Zona 2</option>
+                        <option value="Zon3">Zona 3</option>   
+                    </select>
+                </div>
+
+                <div class="luz-form-group">
+                    <label for="descripcion" class="luz-label">Descripción</label>
+                    <textarea id="descripcion" name="descripcion" class="luz-textarea">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</textarea>
+                </div>
+
+                <div class="luz-form-group">
+                    <label for="fecha-inicio" class="luz-label">Fecha de creacion</label>
+                    <input type="date" id="fecha-inicio" name="fecha-inicio" class="luz-input">
+                </div>
+    
+                
+    
+                <button type="submit" class="luz-submit-btn">Guardar</button>
+            </form>
+        </main>
+
+
+
+
+    </header>
+</body>
+</html>   

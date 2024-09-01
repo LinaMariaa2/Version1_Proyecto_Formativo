@@ -1,0 +1,65 @@
+/* Estilos generales del body para la página de selección de rol */
+body.role-selection-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor de la cuadrícula para la página de selección de rol */
+.grid-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Estilo del contenedor del formulario para la página de selección de rol */
+.form-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Estilo del encabezado para la página de selección de rol */
+h1 {
+    margin-top: 0;
+}
+
+/* Estilo del formulario para la página de selección de rol */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Estilo de los campos de selección para la página de selección de rol */
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Estilo del botón para la página de selección de rol */
+button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}

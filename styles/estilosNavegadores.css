@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.border {
+    border: 1px solid rgb(163, 159, 159);
+}
+
+.section {
+    margin: 20px;
+    padding: 0 20px; 
+    height: 24.2vh;
+    width: calc(100% - 40px); /* le resta las 2 margenesen en px al 100% del viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    overflow: hidden; /* Asegurar que la imagen no se desborde */
+}
+
+.imagen__menu {
+    position: absolute; /* Posicionar la imagen detrás del texto */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: brightness(80%) blur(0.5px); /* Ajusta brillo y el desenfoque */
+    z-index: 0; /* Coloca la imagen detrás del texto */
+}
+
+.titulo__proyecto {
+    font-family:serif;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(19, 18, 18, 0.5);
+    position: relative; /* Para estar sobre la imagen */
+    z-index: 1; /* Colocar el título sobre la imagen */
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu__lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item {
+    position: relative; 
+    padding: 10px 20px;
+    margin-bottom: 18px; 
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.menu__item p {
+    font-size: small; 
+    margin: 0; 
+}
+
+.menu__cuadrito {
+    position: absolute;
+    left: 5px; 
+    top: 50%;
+    transform: translateY(-50%); /* alineacion vertical */
+    width: 40px; 
+    height: 40px; 
+    background-color: #D9D9D9; 
+    border-radius: 7px; 
+}
+
+.menu__item {
+    padding-left: 60px; 
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+}
+
+.footer__button {
+    background-color: #FFFFFF;
+    color: #080808;
+    font-size: 20px;
+    border: none;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: #080808;
+}

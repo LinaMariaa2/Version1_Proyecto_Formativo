@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    color: #333333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: #000000; 
+    border-bottom: 2px solid #dddddd; 
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.help-center h2 {
+    margin-top: 0;
+    color: #000000; 
+    border-bottom: 2px solid #dddddd; 
+    padding-bottom: 10px;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #555555; 
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #cccccc; 
+    border-radius: 4px;
+}
+
+.search-bar .search-btn {
+    padding: 10px 20px;
+    background-color: #dddddd;
+    border: none;
+    color: #333333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.faq h3 {
+    color: #000000; 
+    border-bottom: 2px solid #dddddd; 
+    padding-bottom: 10px;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faq ul li {
+    margin-bottom: 10px;
+}
+
+.faq ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.support h3 {
+    color: #000000; 
+    border-bottom: 2px solid #dddddd; 
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.support .support-details p {
+    margin: 10px 0;
+}
+
+.support a {
+    color: #333333;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; 
+    color: #000000; 
+    margin-top: 50px;
+    border-top: 2px solid #dddddd; 
+}
+
+footer p {
+    margin: 0;
+}
