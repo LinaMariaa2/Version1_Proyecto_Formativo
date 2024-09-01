@@ -6,14 +6,15 @@
     font-family: Arial, sans-serif;
 }
 
-.body {
+.bodyy {
+
     background-image: url('../img/imagen3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     line-height: 1.6;
-    border:0;
+
 }
 
 

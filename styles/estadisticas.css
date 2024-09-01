@@ -99,7 +99,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 1%;
-    border-bottom: solid grey;
+    border-bottom: solid #d9d9d9;
 }
 
 .back-arrow {
@@ -134,7 +134,7 @@ h2 {
 .div2 {
     margin-top: 1%;
     height: 5vh;
-    border-bottom: 1px solid black;
+    
 }
 
 .div3 {

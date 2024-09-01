@@ -216,7 +216,7 @@ a {
 }
 
 .boton-agregar-invernadero{
-    background-color: #d9d9d9; 
+    background-color: #34db34; 
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
@@ -229,7 +229,7 @@ a {
     margin-top: 90px;
 }
 .boton-agregar-zona {
-    background-color: #d9d9d9; 
+    background-color: #34db34; 
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
@@ -244,7 +244,7 @@ a {
 
 .boton-agregar-invernadero:hover,
 .boton-agregar-zona:hover {
-    background-color: #9e9e9e; 
+    background-color: #3a7e4f; 
 }
 .sidebar {
     width: 80px; /* inicio */
